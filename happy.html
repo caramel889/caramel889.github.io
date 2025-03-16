@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>EveryCare</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+</head>
+<body>
+  <!--audio-->
+  <audio id="button1">
+    <source src="https://cdn.glitch.global/190edeb3-72d9-468f-852a-0f1f949dddd7/dogWhistle.mp3?v=1742057307889" type="audio/mpeg">
+  </audio>
+  
+  <audio id="button2">
+    <source src="https://cdn.glitch.global/190edeb3-72d9-468f-852a-0f1f949dddd7/nailsOnChalkboard.wav?v=1742057620704" type="audio/mpeg">
+  </audio>
+  
+  <audio id="button3">
+    <source src="https://cdn.glitch.global/190edeb3-72d9-468f-852a-0f1f949dddd7/vomiting.mp3?v=1742057985925" type="audio/mpeg">
+  </audio>
+  
+  <div class="nav">
+      <div id="logos">
+        <img src="https://cdn.glitch.global/190edeb3-72d9-468f-852a-0f1f949dddd7/eclogo.png?v=1742061755379">
+        <span id="logostxt">
+          <span style="color: #fff;">Every</span>Care
+        </span>
+      </div>
+      <button id="page1"><a href="index.html">Home</a></button>
+      <button id="page2"><a href="https://youtu.be/kx07d2FpZT4?feature=shared" target="_blank">About</a></button>
+      <button id="page3"><a href="#">Services</a></button>
+      <button id="page4"><a href="#">Contact</a></button>
+      <button id="page5"><a href="#">Sign-Up</a></button>
+  </div>
+  
+  <hr>
+  <!--things that are only in happy-->
+  <h2 class = "hGuys"><span style="color: white; text-align: center;">ASMR that scratches your dopamine</span></h2>
+  
+  <!--button plays -->
+  <div class="link">
+    <button onclick="runButton1()" type="button">Wind</button>
+    <button onclick="runButton2()" type="button">Whistling</button>
+    <button onclick="runButton3()" type="button">Scratching</button>
+    <button onclick="pauseAudio()" type="button" id = "evil-button">Pause any audio</button>
+  </div>
+  <div class="imJugdingYou">
+    <img src = "https://cdn.glitch.global/190edeb3-72d9-468f-852a-0f1f949dddd7/images.jpg?v=1742134095524">
+  </div>
+</body>
+</html>
